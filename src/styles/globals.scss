@@ -1,0 +1,29 @@
+
+*, ::before, ::after {
+  box-sizing: inherit;
+}
+
+:root {
+  --palette-primary: #fff;
+  --palette-secondary: #333333;
+
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+ margin: 0;
+  background-color: var(--palette-primary);
+  color: var(--palette-secondary);
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
