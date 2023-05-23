@@ -1,0 +1,21 @@
+.button {
+  padding: 14px 95px;
+  width: 100%;
+  max-width: 320px;
+  border: 1px solid var(--palette-fifth);
+  border-radius: 8px;
+  background-color: var(--palette-fifth);
+  font-size: 1.5rem;
+  line-height: 1.17;
+  cursor: pointer;
+  transition: opacity 0.3s ease-in;
+
+  &:hover {
+    opacity: 0.5;
+  }
+
+  &.secondary {
+    background-color: var(--palette-primary);
+    border-color: var(--palette-sixth);
+  }
+}

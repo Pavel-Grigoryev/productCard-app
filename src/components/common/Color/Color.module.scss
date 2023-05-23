@@ -1,0 +1,24 @@
+.colorItem {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.25);
+  background-color: var(--palette-primary);
+  cursor: pointer;
+
+  &.active {
+    background-color: var(--palette-fourth);
+  }
+}
+
+.colorRound {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

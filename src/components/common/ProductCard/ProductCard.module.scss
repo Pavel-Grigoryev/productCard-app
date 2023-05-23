@@ -1,0 +1,60 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+
+  .image {
+    display: block;
+    flex: 0 0 auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    margin: 0 auto 24px;
+  }
+
+  .price {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 16px;
+    line-height: 1.1875;
+  }
+
+  .title {
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .description {
+    margin: 0 0 24px;
+  }
+}
+
+.colorBlock {
+
+  margin-bottom: 32px;
+
+  .colorTitle {
+    color: var(--palette-third);
+    margin: 0 0 16px;
+  }
+
+  .colorsList {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 16px;
+  }
+}
+
+.buttonBlock {
+  margin-top: auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 16px;
+
+  .link {
+    margin-top: 16px;
+    color: var(--palette-sixth);
+    text-decoration: underline;
+  }
+}
